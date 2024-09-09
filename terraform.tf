@@ -1,5 +1,7 @@
 provider "aws" {
-  region = "ap-south-1"
+  region     = "ap-south-1"
+  access_key = "AKIAUS4SSG6ZFHD67XKG"
+  secret_key = "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"
 }
 
 variable "enable_public_ip" {
